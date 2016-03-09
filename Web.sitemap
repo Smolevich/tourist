@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sitemap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/default.aspx" title="Главная"  description="Главная страница сайта">
+  <siteMapNode url="~/pages/about.aspx" title="О нас"  description="Страница о нас">
+  <siteMapNode url="~/Registration.aspx" title="Регистрация"  description="Страница для регистрации">
+  <siteMapNode url="~/pages/news.aspx" title="Новости"  description="Новости">
+  <siteMapNode url="~/pages/destination.aspx" title="Как добраться"  description="Координаты">
+  <siteMapNode url="~/pages/contacts.aspx" title="Контакты"  description="Контакты">
+</Sitemap>

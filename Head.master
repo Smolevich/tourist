@@ -71,13 +71,13 @@
                         <tr>
                             <td>
                                 <asp:Button ID="btnRegister" runat="server" Text="Регистрация" Font-Size="Medium" 
-                                    Width="100px" />
+                                    Width="100px" OnClick="btnRegister_Click" />
                             </td>
                             <td>
                                 <asp:Button ID="btnLogin" runat="server" Text="Вход" Font-Size="Medium" 
                                     Width="50px"  OnClick="btnLogin_Click" />
                                 <asp:Button ID="btnLogout" runat="server" Text="Выход" Font-Size="Medium" 
-                                    Width="70px" />
+                                    Width="70px" OnClick="btnLogout_Click" />
                             </td>
                         </tr>
                     </table>
@@ -98,20 +98,20 @@
                             <td width="20%">
                                 &nbsp;</td>
                             <td align="center">
-                                <asp:Button ID="Button9" runat="server" Text="Главная" Font-Size="Medium" />
+                                <asp:Button ID="btnMain" runat="server" Text="Главная" Font-Size="Medium" OnClick="btnMain_Click" />
                             </td>
                             <td align="center">
-                                <asp:Button ID="Button10" runat="server" Text="Новости" Font-Size="Medium" />
+                                <asp:Button ID="btnNews" runat="server" Text="Новости" Font-Size="Medium" OnClick="btnNews_Click" />
                             </td>
                             <td align="center">
-                                <asp:Button ID="Button11" runat="server" Text="О нас" Font-Size="Medium" />
+                                <asp:Button ID="btnAbout" runat="server" Text="О нас" Font-Size="Medium" OnClick="btnAbout_Click" />
                             </td>
                             <td align="center">
-                                <asp:Button ID="Button12" runat="server" Text="Как добраться" 
-                                    Font-Size="Medium" />
+                                <asp:Button ID="btnDestination" runat="server" Text="Как добраться" 
+                                    Font-Size="Medium" OnClick="btnDestination_Click" />
                             </td>
                             <td align="center">
-                                <asp:Button ID="Button13" runat="server" Text="Контакты" Font-Size="Medium" />
+                                <asp:Button ID="btnContacts" runat="server" Text="Контакты" Font-Size="Medium" />
                             </td>
                             <td width="20%">
                                 &nbsp;</td>

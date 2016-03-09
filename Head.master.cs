@@ -28,4 +28,34 @@ public partial class Head : System.Web.UI.MasterPage
     }
 
 
+
+    protected void btnLogout_Click(object sender, EventArgs e)
+    {
+        Session.Clear();
+    }
+
+    protected void btnRegister_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Registration.aspx");
+    }
+
+    protected void btnMain_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/default.aspx");
+    }
+
+    protected void btnNews_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/pages/news.aspx");
+    }
+
+    protected void btnAbout_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/pages/about.aspx");
+    }
+
+    protected void btnDestination_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/pages/destination.aspx");
+    }
 }
